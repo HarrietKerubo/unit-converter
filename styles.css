@@ -111,3 +111,69 @@ p{
     color: #ffffff;
 
 }
+
+@media (max-width:550px){
+    .container{
+        width: 400px;
+    }
+
+    h1{
+        font-size: 24px
+    }
+    #unit-input{
+        font-size: 40px;
+        height: 75px;
+    }
+
+    .grid-card{
+        width: 350px;
+    }
+
+    p{
+        font-size: 12px;
+    }
+
+    h4{
+        font-size: 16px;
+    }
+
+    .conversion-result{
+   
+        width: 320px;
+       
+    }
+}
+
+@media (max-width:400px){
+    .container{
+        width: 340px;
+    }
+
+    h1{
+        font-size: 20px
+    }
+    #unit-input{
+        font-size: 40px;
+        height: 75px;
+    }
+
+    .grid-card{
+        width: 200px;
+    }
+
+    p{
+        font-size: 12px;
+    }
+
+    h4{
+        font-size: 12px;
+    }
+
+
+.conversion-result{
+   
+    width: 180px;
+   
+}
+
+}
